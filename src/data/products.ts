@@ -7,6 +7,12 @@ export interface Product {
   image: string;
 }
 
+import productTmt from "@/assets/product-tmt-bars.jpg";
+import productCement from "@/assets/product-cement.jpg";
+import productPipes from "@/assets/product-pipes.jpg";
+import productTanks from "@/assets/product-tanks.jpg";
+import productHollow from "@/assets/product-hollow-sections.jpg";
+
 export const productCategories = [
   "All Products",
   "Iron Bars (TMT)",
@@ -27,7 +33,7 @@ export const products: Product[] = [
     category: "Iron Bars (TMT)",
     sizes: ["8mm", "10mm", "12mm", "16mm"],
     description: "High-strength TMT bars suitable for foundations, slabs, beams, and heavy structural reinforcement. Deliver superior tensile strength and durability for both residential and commercial construction.",
-    image: "/src/assets/product-tmt-bars.jpg",
+    image: productTmt,
   },
   {
     id: "round-bars",
@@ -35,7 +41,7 @@ export const products: Product[] = [
     category: "Round Bars",
     sizes: ["6mm", "7mm", "8mm", "10mm", "12mm", "16mm"],
     description: "Smooth steel round bars used for fabrication, grill work, light reinforcement, and general-purpose construction needs.",
-    image: "/src/assets/product-tmt-bars.jpg",
+    image: productTmt,
   },
   {
     id: "cement",
@@ -43,7 +49,7 @@ export const products: Product[] = [
     category: "Cement",
     sizes: ["Simba Cement", "Tororo C2", "Tororo C4"],
     description: "Premium-grade cement brands known for strength, consistency, and reliable curing — ideal for masonry, block work, plastering, and large-scale projects.",
-    image: "/src/assets/product-cement.jpg",
+    image: productCement,
   },
   {
     id: "round-pipes",
@@ -61,7 +67,7 @@ export const products: Product[] = [
       "RT 100×3mm",
     ],
     description: "Steel round pipes ideal for fabrication, gate work, frames, scaffolding, and industrial structures. Provide excellent dimensional accuracy and corrosion resistance.",
-    image: "/src/assets/product-pipes.jpg",
+    image: productPipes,
   },
   {
     id: "gas-cylinders",
@@ -69,7 +75,7 @@ export const products: Product[] = [
     category: "Gas Cylinders",
     sizes: ["6KG", "12KG", "45KG"],
     description: "Reliable Shell-branded LPG cylinders suitable for household kitchens, restaurants, and industrial gas requirements.",
-    image: "/src/assets/product-pipes.jpg",
+    image: productPipes,
   },
   {
     id: "water-tanks",
@@ -77,7 +83,7 @@ export const products: Product[] = [
     category: "Water Tanks",
     sizes: ["500L", "1000L", "1500L", "2000L", "3000L", "5000L", "10000L"],
     description: "Heavy-duty, UV-resistant water tanks ideal for residential, commercial, and agricultural storage solutions.",
-    image: "/src/assets/product-tanks.jpg",
+    image: productTanks,
   },
   {
     id: "hollow-sections",
@@ -93,7 +99,7 @@ export const products: Product[] = [
       "40×40×1", "40×40×1.2", "40×40×1.5",
     ],
     description: "High-quality hollow steel profiles used in construction, fabrication, fencing, furniture, and support structures.",
-    image: "/src/assets/product-hollow-sections.jpg",
+    image: productHollow,
   },
   {
     id: "angle-bars",
@@ -107,7 +113,7 @@ export const products: Product[] = [
       "50×50×3", "50×50×4", "50×50×5", "50×50×6",
     ],
     description: "Structural angle bars perfect for reinforcement, trusses, framing, workshop fabrication, and heavy-duty applications.",
-    image: "/src/assets/product-hollow-sections.jpg",
+    image: productHollow,
   },
   {
     id: "aluminium-gauge",
@@ -115,6 +121,6 @@ export const products: Product[] = [
     category: "Aluminium Gauge",
     sizes: ["28mm", "30mm", "32mm"],
     description: "Lightweight, corrosion-resistant aluminium sheets and coils used for roofing, cladding, and ventilation works.",
-    image: "/src/assets/product-hollow-sections.jpg",
+    image: productHollow,
   },
 ];
